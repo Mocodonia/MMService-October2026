@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MMService</title>
+  <title>MMService October 2026</title>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/MMService/assets/leaflet.css">
-  <link rel="stylesheet" href="/MMService/style.css">
+  <link rel="stylesheet" href="/MMService-October2026/assets/leaflet.css">
+  <link rel="stylesheet" href="/MMService-October2026/style.css">
 </head>
 <body>
   <!-- Top Bar -->
@@ -15,10 +15,10 @@
 
   <!-- Bottom Bar -->
   <div class="mm-bottombar">
-    <div class="mm-btn" onclick="window.location='/MMService'">Day</div>
-    <div class="mm-btn" onclick="window.location='/MMService/night.html'">Night</div>
-    <div class="mm-btn" onclick="window.location='/MMService/metro.html'">Metro</div>
-    <div class="mm-btn" onclick="window.location='/MMService/status.html'">Status</div>
+    <div class="mm-btn" onclick="window.location='/MMService-October2026'">Day</div>
+    <div class="mm-btn" onclick="window.location='/MMService-October2026/night.html'">Night</div>
+    <div class="mm-btn" onclick="window.location='/MMService-October2026/metro.html'">Metro</div>
+    <div class="mm-btn" onclick="window.location='/MMService-October2026/status.html'">Status</div>
   </div>
 
   <!-- Tile Error / Updating Message -->
@@ -28,14 +28,14 @@
     <p>After it comes back, you will be able to see the new changes!</p>
     <p>If it doesn't show up after a few minutes, check if you have JavaScript enabled.</p>
     <p>If JavaScript is on and it still isn't loading, check the
-      <a href="/MMService/status.html">status</a> to check if MMService is working.</p>
+      <a href="/MMService-October2026/status.html">status</a> to check if MMService is working.</p>
 
     <h2>MMService apaḍēṭa karata āhē</h2>
     <p>Nakāśā apaḍēṭa hōta asatānā tō tātpuratā anupalabdha āhē.</p>  
     <p>Tē parata ālyānantara, tumhālā navīna badala pāhatā yētīla!</p>  
     <p>Jara tē kāhī miniṭānnantara disata nasēla, tara tumhī JavaScript sakṣama kēlē āhē kā tē tapāsā.</p>  
     <p>Jara jāvāskripṭa cālū asēla āṇi tarīhī tē lōḍa hōta nasēla, tara tapāsā
-      <a href="/MMService/status.html">Sthitī</a> MMService kāma karata āhē kā tē tapāsaṇyāsāṭhī.</p>  
+      <a href="/MMService-October2026/status.html">Sthitī</a> MMService kāma karata āhē kā tē tapāsaṇyāsāṭhī.</p>  
   </div>
 
   <!-- Map Container -->
@@ -44,14 +44,14 @@
   <!-- Tile availability test -->
   <script>
     const testTile = new Image();
-    testTile.src = '/MMService/tiles/-1,-1.png';
+    testTile.src = '/MMService-October2026/tiles/-1,-1.png';
     testTile.onerror = () => {
       document.getElementById('tile-message').style.display = 'block';
     };
   </script>
 
   <!-- Leaflet + Main JS -->
-  <script src="/MMService/assets/leaflet.js"></script>
+  <script src="/MMService-October2026/assets/leaflet.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
